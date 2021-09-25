@@ -3,7 +3,7 @@ int switchPin = 12;
 
 bool LEDIsOn = false;
 
-int lightOnHold = 60000;
+long lightOnHold = 60000;
 
 long lastSwitchLow = 0;
 
